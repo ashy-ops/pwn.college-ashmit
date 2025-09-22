@@ -31,7 +31,7 @@ pwn.college{Ag08Q_HagSo-ZcmwkhOTnmdqz2r.QX3YjM1wyM5kjNzEzW}
 There are different users and in this problem we the user were the hacker 
 and ~ just represents the hacker's home directory aka (/home/user)
 
-## Challenge 2 Intro to Arguments
+# Challenge 2 Intro to Arguments
 Let's try something more complicated: a command with arguments, which is what we call additional data passed to the command. When you type a line of text and hit enter, the shell actually parses your input into a command and its arguments. The first word is the command, and the subsequent words are arguments. Observe:
 
 ```sh
@@ -53,7 +53,7 @@ In this challenge, to get the flag, you must run the hello command (NOT the echo
 ## Solution:
 Need to invoke hello command with the hackers argument
 
-##Commands ran:
+## Commands ran:
 ```sh
 hacker@hello~intro-to-arguments:~$ hello hackers
 Success! Here is your flag:
@@ -66,7 +66,7 @@ pwn.college{YrQjYn36zhC2UniALgNvXE32Yq-.QX4YjM1wyM5kjNzEzW}
 ### Notes:
 Leart about how there can be commands for eg echo was given, in case of the problem it was hello and we pass in arguments for that.
 
-##Challenge 3 Command History:
+# Challenge 3 Command History:
 You're going to type a lot of commands, and typing everything from scratch can be annoying. Luckily, the shell saves a history of every command you invoke.
 
 You can scroll through those saved commands with the up/down arrow keys, and we'll practice that in this challenge. This challenge will inject the flag into your history. Bring up a terminal, hit the up arrow, and grab it! In other challenges, the history will contain the log of the commands you've run, so if you need to run a similar command again, you can use the arrow keys to scroll through and find it!
@@ -80,7 +80,7 @@ so I just needed to press up key a few times to pop it out.
 hacker@hello~command-history:~$ the flag is pwn.college{wSLeeHhbYJB3LaV41bQnsrbepqZ.0lNzEzNxwyM5kjNzEzW}
 bash: the: command not found
 ```
-#Flag:
+## Flag:
 pwn.college{wSLeeHhbYJB3LaV41bQnsrbepqZ.0lNzEzNxwyM5kjNzEzW}
 
 ### Notes:
